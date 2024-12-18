@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab002faa.css",
+    "main.js": "/static/js/main.255855e1.js",
+    "static/media/Travel.jpeg": "/static/media/Travel.33a5097e4a9c4fd4429a.jpeg",
+    "static/media/photo_gallery.jpg": "/static/media/photo_gallery.38a8d3a2f25e41b228a2.jpg",
+    "static/media/port.jpg": "/static/media/port.7ab14905a8b8456bfc21.jpg",
+    "static/media/calculator.jpg": "/static/media/calculator.6e319354b90e3e1fb0ee.jpg",
+    "static/media/Karan_new.jpg": "/static/media/Karan_new.3a96d2d99b8b6d1be067.jpg",
+    "static/media/expense_tracker.jpg": "/static/media/expense_tracker.0bbd10040e9fe2816698.jpg",
+    "static/media/news_app.png": "/static/media/news_app.1120a53e1c2ef9af6ac6.png",
+    "static/media/tictac.png": "/static/media/tictac.3e3949cddbd8bca03a5f.png",
+    "static/media/chatbot-icon.jpg": "/static/media/chatbot-icon.16008d1e50406c619fe9.jpg",
+    "index.html": "/index.html",
+    "main.ab002faa.css.map": "/static/css/main.ab002faa.css.map",
+    "main.255855e1.js.map": "/static/js/main.255855e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab002faa.css",
+    "static/js/main.255855e1.js"
+  ]
+}

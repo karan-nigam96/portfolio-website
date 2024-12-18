@@ -1,0 +1,102 @@
+.works-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: #fff;
+}
+.works-container h1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.works-container h1 span {
+    color: #fdb448;
+    font-size: 3.5rem;
+}
+.works-list-container {
+    display: grid;
+    grid-template-columns: repeat(3,25vw);
+    grid-template-rows: repeat(2,25vw);
+    grid-row-gap: 10rem;
+    grid-column-gap: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+.works-item {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 251, 251);
+    padding: 4rem;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.works-item img {
+    width: 18vw;
+    height: 18vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.works-item:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.works-item p {
+    font-size: 1.2rem;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.works-item p span {
+    color: #fdb448;
+}
+
+@media (max-width:768px){
+    .works-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        grid-row-gap: 0;
+        margin-bottom: 2rem;
+    }
+    .works-item {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(236, 235, 235);
+        padding: 1rem;
+        border-radius: 15px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1.5rem;
+    }
+    .works-item img {
+        width: 50vw;
+        height: 50vw;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .works-container h1 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .works-container h1 span {
+        color: #fdb448;
+        font-size: 1.6rem;
+    }
+}

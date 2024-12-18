@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Play', sans-serif;
+    background: white;
+}
+.contact-container{
+    /* height: 100vh; */
+    margin-bottom: 15vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left-title h2{
+    padding: 2rem;
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fcb212;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    padding: 1.5rem;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-container input {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 2vh;
+}
+.contact-left textarea{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 2vh;
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #fcb212;
+}
+/* .contact-inputs::placeholder{
+    color: #a9a9a9;
+} */
+.contact-left button{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#f7bd3f,#fcb212);
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+
+@media (max-width:800px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+}
